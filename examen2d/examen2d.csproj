@@ -51,7 +51,10 @@
     <Compile Include="Guerrero\Arco.cs" />
     <Compile Include="Guerrero\AtaqueCuerpoACuerpo.cs" />
     <Compile Include="Guerrero\AtaqueADistancia.cs" />
-    <Compile Include="Guerrero\Guerrero.cs" />
+    <Compile Include="Guerrero\fabricasguerreros\FabricaEspadachin.cs" />
+    <Compile Include="Guerrero\fabricasguerreros\FabricaArquero.cs" />
+    <Compile Include="Guerrero\fabricasguerreros\Guerrero.cs" />
+    <Compile Include="Guerrero\Interface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
