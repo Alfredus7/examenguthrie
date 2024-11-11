@@ -47,14 +47,17 @@
     <Compile Include="escenario\Escenario.cs" />
     <Compile Include="escenario\Director.cs" />
     <Compile Include="escenario\IBuilder.cs" />
+    <Compile Include="Guerrero\Espada.cs" />
+    <Compile Include="Guerrero\Arco.cs" />
+    <Compile Include="Guerrero\AtaqueCuerpoACuerpo.cs" />
+    <Compile Include="Guerrero\AtaqueADistancia.cs" />
+    <Compile Include="Guerrero\Guerrero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Guerrero\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -33,6 +33,21 @@ public class Program
         Console.WriteLine("Escenario 4: " + escenario4);
 
 
+
+        // Crear un guerrero Espadachín
+        IFabricaGuerrero fabricaEspadachin = new FabricaEspadachin();
+        Guerrero espadachin = new Guerrero(fabricaEspadachin);
+        Console.WriteLine("Guerrero Espadachín:");
+        espadachin.Atacar();
+
+        // Crear un guerrero Arquero
+        IFabricaGuerrero fabricaArquero = new FabricaArquero();
+        Guerrero arquero = new Guerrero(fabricaArquero);
+        Console.WriteLine("\nGuerrero Arquero:");
+        arquero.Atacar();
+
+
+
         Console.ReadLine();
     }
 }
