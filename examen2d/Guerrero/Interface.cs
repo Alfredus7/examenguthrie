@@ -12,10 +12,14 @@ public interface IHabilidad
     void Ejecutar();
 }
 
+// Interfaz de la fábrica de guerreros
 public interface IFabricaGuerrero
 {
     IArma CrearArma();
-    IHabilidad CrearHabilidad();
+    IHabilidad CrearHabilidadPrincipal();
+    IHabilidad CrearRetirada();
+    IHabilidad CrearCorrer();
+    IHabilidad CrearSaltar();
 }
 
 

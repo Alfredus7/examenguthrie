@@ -49,10 +49,13 @@
     <Compile Include="escenario\IBuilder.cs" />
     <Compile Include="Guerrero\armas\Espada.cs" />
     <Compile Include="Guerrero\armas\Arco.cs" />
+    <Compile Include="Guerrero\habilidades\Retirada.cs" />
+    <Compile Include="Guerrero\habilidades\Correr.cs" />
+    <Compile Include="Guerrero\habilidades\Saltar.cs" />
     <Compile Include="Guerrero\habilidades\AtaqueCuerpoACuerpo.cs" />
     <Compile Include="Guerrero\habilidades\AtaqueADistancia.cs" />
-    <Compile Include="Guerrero\fabricasConcretas\Espadachin.cs" />
-    <Compile Include="Guerrero\fabricasConcretas\Arquero.cs" />
+    <Compile Include="Guerrero\fabricasGuerreroConcretas\Espadachin.cs" />
+    <Compile Include="Guerrero\fabricasGuerreroConcretas\Arquero.cs" />
     <Compile Include="Guerrero\GuerrerosFabrica.cs" />
     <Compile Include="Guerrero\Interface.cs" />
     <Compile Include="Program.cs" />

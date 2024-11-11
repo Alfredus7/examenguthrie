@@ -35,16 +35,23 @@ public class Program
 
 
         // Crear un guerrero Espadachín
-        IFabricaGuerrero fabricaEspadachin = new Espadachin();
-        GuerrerosFabrica espadachin = new GuerrerosFabrica(fabricaEspadachin);
-        Console.WriteLine("Guerrero Espadachín:");
+        // Integración con guerreros
+        IFabricaGuerrero fabricaEspadachin = new FabricaEspadachin();
+        Guerrero espadachin = new Guerrero(fabricaEspadachin);
+        Console.WriteLine("\nGuerrero Espadachín en Escenario 1:");
         espadachin.Atacar();
+        espadachin.Retirarse();
+        espadachin.Correr();
+        espadachin.Saltar();
 
         // Crear un guerrero Arquero
-        IFabricaGuerrero fabricaArquero = new Arquero();
-        GuerrerosFabrica arquero = new GuerrerosFabrica(fabricaArquero);
-        Console.WriteLine("\nGuerrero Arquero:");
+        IFabricaGuerrero fabricaArquero = new FabricaArquero();
+        Guerrero arquero = new Guerrero(fabricaArquero);
+        Console.WriteLine("\nGuerrero Arquero en Escenario 2:");
         arquero.Atacar();
+        arquero.Retirarse();
+        arquero.Correr();
+        arquero.Saltar();
 
 
 
