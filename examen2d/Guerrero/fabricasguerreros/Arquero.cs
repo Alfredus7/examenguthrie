@@ -1,5 +1,5 @@
 ﻿// Fábrica concreta para crear un Guerrero de tipo Arquero
-public class FabricaArquero : IFabricaGuerrero
+public class Arquero : IFabricaGuerrero
 {
     public IArma CrearArma()
     {

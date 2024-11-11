@@ -35,14 +35,14 @@ public class Program
 
 
         // Crear un guerrero Espadachín
-        IFabricaGuerrero fabricaEspadachin = new FabricaEspadachin();
-        Guerrero espadachin = new Guerrero(fabricaEspadachin);
+        IFabricaGuerrero fabricaEspadachin = new Espadachin();
+        GuerrerosFabrica espadachin = new GuerrerosFabrica(fabricaEspadachin);
         Console.WriteLine("Guerrero Espadachín:");
         espadachin.Atacar();
 
         // Crear un guerrero Arquero
-        IFabricaGuerrero fabricaArquero = new FabricaArquero();
-        Guerrero arquero = new Guerrero(fabricaArquero);
+        IFabricaGuerrero fabricaArquero = new Arquero();
+        GuerrerosFabrica arquero = new GuerrerosFabrica(fabricaArquero);
         Console.WriteLine("\nGuerrero Arquero:");
         arquero.Atacar();
 

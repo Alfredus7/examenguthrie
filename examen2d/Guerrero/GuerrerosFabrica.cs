@@ -1,9 +1,9 @@
-﻿public class Guerrero
+﻿public class GuerrerosFabrica
 {
     private IArma _arma;
     private IHabilidad _habilidad;
 
-    public Guerrero(IFabricaGuerrero fabrica)
+    public GuerrerosFabrica(IFabricaGuerrero fabrica)
     {
         _arma = fabrica.CrearArma();
         _habilidad = fabrica.CrearHabilidad();

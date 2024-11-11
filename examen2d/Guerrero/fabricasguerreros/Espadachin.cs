@@ -1,5 +1,5 @@
 ﻿// Fábrica concreta para crear un Guerrero de tipo Espadachín
-public class FabricaEspadachin : IFabricaGuerrero
+public class Espadachin : IFabricaGuerrero
 {
     public IArma CrearArma()
     {
