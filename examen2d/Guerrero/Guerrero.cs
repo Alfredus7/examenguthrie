@@ -19,12 +19,15 @@ public class Guerrero
     public void Atacar()
     {
         _arma.Usar();
-        _habilidadPrincipal.Ejecutar();
+       
     }
 
 
 
-
+    public void Habilidades()
+    {
+        _habilidadPrincipal.Ejecutar();
+    }
 
 
 

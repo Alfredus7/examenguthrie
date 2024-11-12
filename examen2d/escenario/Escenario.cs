@@ -14,9 +14,32 @@
 
     public override string ToString()
     {
-        return $"Escenario [Nieve={Nieve}, Frio={Frio}, Lluvia={Lluvia}, Rocosidad={Rocosidad}, Mar={Mar}, " +
-               $"Selva={Selva}, Montaña={Montaña}, Granizo={Granizo}, CalorExtremo={CalorExtremo}, Arena={Arena}]";
+        string descripcion = "el Escenario";
+
+        if (Nieve)
+            descripcion += "Tiene nieve, ";
+        if (Frio)
+            descripcion += "Hace frío, ";
+        if (Lluvia)
+            descripcion += "Llueve, ";
+        if (Rocosidad)
+            descripcion += "Es rocoso, ";
+        if (Mar)
+            descripcion += "Tiene mar, ";
+        if (Selva)
+            descripcion += "Es selvático, ";
+        if (Montaña)
+            descripcion += "Tiene montañas, ";
+        if (Granizo)
+            descripcion += "Graniza, ";
+        if (CalorExtremo)
+            descripcion += "Tiene calor extremo, ";
+        if (Arena)
+            descripcion += "Es arenoso, ";
+
+        return descripcion;
     }
+
 }
 
 
