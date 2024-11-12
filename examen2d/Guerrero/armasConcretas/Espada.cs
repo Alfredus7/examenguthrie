@@ -5,6 +5,6 @@ public class Espada : IArma
 {
     public void Usar()
     {
-        Console.WriteLine("Usando una espada para atacar cuerpo a cuerpo.");
+        Console.WriteLine("a Usando una espada para atacar cuerpo a cuerpo.");
     }
 }

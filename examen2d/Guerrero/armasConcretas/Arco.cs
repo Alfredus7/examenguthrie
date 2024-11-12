@@ -5,6 +5,6 @@ public class Arco : IArma
 {
     public void Usar()
     {
-        Console.WriteLine("Usando un arco para atacar a distancia.");
+        Console.WriteLine("a Usando un arco para atacar a distancia.");
     }
 }

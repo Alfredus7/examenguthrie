@@ -5,6 +5,6 @@ public class AtaqueCuerpoACuerpo : IHabilidad
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando un ataque cuerpo a cuerpo.");
+        Console.WriteLine("a Ejecutando un ataque cuerpo a cuerpo.");
     }
 }

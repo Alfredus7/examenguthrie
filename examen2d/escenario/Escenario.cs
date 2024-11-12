@@ -14,7 +14,7 @@
 
     public override string ToString()
     {
-        string descripcion = "el Escenario";
+        string descripcion = "el Escenario ";
 
         if (Nieve)
             descripcion += "Tiene nieve, ";

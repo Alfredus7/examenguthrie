@@ -11,19 +11,20 @@ public class Program
 
         // Crear Escenario 1: nieve, frío, lluvia
         director.CrearEscenario1(constructor);
-        Escenario escenario1 = constructor.GetEscenario();
-        Console.WriteLine("Escenario 1: " + escenario1);
+        Escenario escenario = constructor.GetEscenario();
+        Console.WriteLine(escenario);
 
 
 
         // Crear un guerrero Espadachín
+        Console.WriteLine("el guerrero");
         IFabricaGuerrero fabricaEspadachin = new FabricaEspadachin();
-        Guerrero espadachin = new Guerrero(fabricaEspadachin);
-        espadachin.Atacar();
-        espadachin.Habilidades();
-        espadachin.Retirarse();
-        espadachin.Correr();
-        espadachin.Saltar();
+        Guerrero guerrero = new Guerrero(fabricaEspadachin);
+        guerrero.Atacar();
+        guerrero.Habilidades();
+        guerrero.Retirarse();
+        guerrero.Correr();
+        guerrero.Saltar();
 
 
 

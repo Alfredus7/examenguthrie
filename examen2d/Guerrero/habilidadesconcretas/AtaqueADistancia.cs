@@ -5,6 +5,6 @@ public class AtaqueADistancia : IHabilidad
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando un ataque a distancia.");
+        Console.WriteLine("a Ejecutando un ataque a distancia.");
     }
 }
