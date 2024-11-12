@@ -19,23 +19,15 @@ public class Guerrero
     public void Atacar()
     {
         _arma.Usar();
-       
     }
-
-
-
     public void Habilidades()
     {
         _habilidadPrincipal.Ejecutar();
     }
-
-
-
     public void Retirarse()
     {
         _retirada.Ejecutar();
     }
-
     public void Correr()
     {
         _correr.Ejecutar();

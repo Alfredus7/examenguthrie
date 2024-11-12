@@ -19,7 +19,6 @@ public class Program
         // Crear un guerrero Espadachín
         IFabricaGuerrero fabricaEspadachin = new FabricaEspadachin();
         Guerrero espadachin = new Guerrero(fabricaEspadachin);
-        Console.WriteLine("\nGuerrero Espadachín en Escenario 1:");
         espadachin.Atacar();
         espadachin.Habilidades();
         espadachin.Retirarse();
