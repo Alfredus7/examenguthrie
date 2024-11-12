@@ -22,6 +22,12 @@ public class Guerrero
         _habilidadPrincipal.Ejecutar();
     }
 
+
+
+
+
+
+
     public void Retirarse()
     {
         _retirada.Ejecutar();

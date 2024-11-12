@@ -56,8 +56,10 @@
     <Compile Include="Guerrero\habilidades\AtaqueADistancia.cs" />
     <Compile Include="Guerrero\fabricasGuerreroConcretas\Espadachin.cs" />
     <Compile Include="Guerrero\fabricasGuerreroConcretas\Arquero.cs" />
-    <Compile Include="Guerrero\GuerrerosFabrica.cs" />
-    <Compile Include="Guerrero\Interface.cs" />
+    <Compile Include="Guerrero\Guerrero.cs" />
+    <Compile Include="Guerrero\Interface\IFabricaGuerrero.cs" />
+    <Compile Include="Guerrero\Interface\IArma.cs" />
+    <Compile Include="Guerrero\Interface\IHabilidad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
