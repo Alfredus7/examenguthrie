@@ -1,11 +1,11 @@
 ﻿public class FabricaArquero : IFabricaGuerrero
 {
-    public override IArma CrearArma()
+    public override IArma AprenderUsoArma()
     {
         return new Arco();
     }
 
-    public override IHabilidad CrearHabilidadPrincipal()
+    public override IHabilidad AprenderHabilidadEspecial()
     {
         return new AtaqueADistancia();
     }

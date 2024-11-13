@@ -12,7 +12,7 @@ public class Program
         // Crear Escenario 1: nieve, frío, lluvia
         director.CrearEscenario1(constructor);
         Escenario escenario = constructor.GetEscenario();
-        Console.WriteLine(escenario);
+        Console.WriteLine(escenario.ToString());
 
 
 

@@ -9,8 +9,8 @@ public class Guerrero
 
     public Guerrero(IFabricaGuerrero fabrica)
     {
-        _arma = fabrica.CrearArma();
-        _habilidadPrincipal = fabrica.CrearHabilidadPrincipal();
+        _arma = fabrica.AprenderUsoArma();
+        _habilidadPrincipal = fabrica.AprenderHabilidadEspecial();
         _retirada = fabrica.CrearRetirada();
         _correr = fabrica.CrearCorrer();
         _saltar = fabrica.CrearSaltar();

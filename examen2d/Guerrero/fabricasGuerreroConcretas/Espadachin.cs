@@ -1,11 +1,11 @@
 ﻿public class FabricaEspadachin : IFabricaGuerrero
 {
-    public override IArma CrearArma()
+    public override IArma AprenderUsoArma()
     {
         return new Espada();
     }
 
-    public override IHabilidad CrearHabilidadPrincipal()
+    public override IHabilidad AprenderHabilidadEspecial()
     {
         return new AtaqueCuerpoACuerpo();
     }
