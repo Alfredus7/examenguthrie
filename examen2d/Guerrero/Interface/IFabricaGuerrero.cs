@@ -1,11 +1,12 @@
 ﻿// Interfaz de la fábrica de guerreros
-public interface IFabricaGuerrero
+// Interfaz abstracta de la fábrica de guerreros
+public abstract class IFabricaGuerrero
 {
-    IArma CrearArma();
-    IHabilidad CrearHabilidadPrincipal();
-    IHabilidad CrearRetirada();
-    IHabilidad CrearCorrer();
-    IHabilidad CrearSaltar();
+    public abstract IArma CrearArma();
+    public abstract IHabilidad CrearHabilidadPrincipal();
+    public abstract IHabilidad CrearRetirada();
+    public abstract IHabilidad CrearCorrer();
+    public abstract IHabilidad CrearSaltar();
 }
 
 

@@ -1,26 +1,26 @@
 ﻿public class FabricaArquero : IFabricaGuerrero
 {
-    public IArma CrearArma()
+    public override IArma CrearArma()
     {
         return new Arco();
     }
 
-    public IHabilidad CrearHabilidadPrincipal()
+    public override IHabilidad CrearHabilidadPrincipal()
     {
         return new AtaqueADistancia();
     }
 
-    public IHabilidad CrearRetirada()
+    public override IHabilidad CrearRetirada()
     {
         return new Retirada();
     }
 
-    public IHabilidad CrearCorrer()
+    public override IHabilidad CrearCorrer()
     {
         return new Correr();
     }
 
-    public IHabilidad CrearSaltar()
+    public override IHabilidad CrearSaltar()
     {
         return new Saltar();
     }

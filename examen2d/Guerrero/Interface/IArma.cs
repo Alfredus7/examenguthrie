@@ -1,5 +1,5 @@
 ﻿// Interfaz para las armas
-public interface IArma
+public abstract class IArma
 {
-    void Usar();
+    public abstract void Usar();
 }

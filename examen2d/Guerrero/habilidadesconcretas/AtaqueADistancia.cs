@@ -3,7 +3,7 @@ using System;
 
 public class AtaqueADistancia : IHabilidad
 {
-    public void Ejecutar()
+    public override void Ejecutar()
     {
         Console.WriteLine("a Ejecutando un ataque a distancia.");
     }

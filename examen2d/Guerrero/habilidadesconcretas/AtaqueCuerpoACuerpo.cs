@@ -3,7 +3,7 @@ using System;
 
 public class AtaqueCuerpoACuerpo : IHabilidad
 {
-    public void Ejecutar()
+    public override void Ejecutar()
     {
         Console.WriteLine("a Ejecutando un ataque cuerpo a cuerpo.");
     }

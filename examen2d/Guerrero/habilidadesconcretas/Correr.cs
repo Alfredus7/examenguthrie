@@ -2,7 +2,7 @@
 
 public class Correr : IHabilidad
 {
-    public void Ejecutar()
+    public override void Ejecutar()
     {
         Console.WriteLine("corre rápidamente.");
     }

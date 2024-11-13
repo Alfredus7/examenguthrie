@@ -1,5 +1,5 @@
 ﻿// Interfaz para las habilidades
-public interface IHabilidad
+public abstract class IHabilidad
 {
-    void Ejecutar();
+    public abstract void Ejecutar();
 }

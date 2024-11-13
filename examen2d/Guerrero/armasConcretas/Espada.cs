@@ -3,7 +3,7 @@ using System;
 
 public class Espada : IArma
 {
-    public void Usar()
+    public override void Usar()
     {
         Console.WriteLine("a Usando una espada para atacar cuerpo a cuerpo.");
     }

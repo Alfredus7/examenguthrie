@@ -2,7 +2,7 @@
 
 public class Saltar : IHabilidad
 {
-    public void Ejecutar()
+    public override void Ejecutar()
     {
         Console.WriteLine("salta");
     }

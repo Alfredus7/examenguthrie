@@ -1,26 +1,26 @@
 ﻿public class FabricaEspadachin : IFabricaGuerrero
 {
-    public IArma CrearArma()
+    public override IArma CrearArma()
     {
         return new Espada();
     }
 
-    public IHabilidad CrearHabilidadPrincipal()
+    public override IHabilidad CrearHabilidadPrincipal()
     {
         return new AtaqueCuerpoACuerpo();
     }
 
-    public IHabilidad CrearRetirada()
+    public override IHabilidad CrearRetirada()
     {
         return new Retirada();
     }
 
-    public IHabilidad CrearCorrer()
+    public override IHabilidad CrearCorrer()
     {
         return new Correr();
     }
 
-    public IHabilidad CrearSaltar()
+    public override IHabilidad CrearSaltar()
     {
         return new Saltar();
     }
